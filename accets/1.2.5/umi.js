@@ -17531,7 +17531,7 @@
 		(i.rel = "stylesheet"),
 			(i.href = a
 				? "./theme/".concat(o.color, ".css")
-				: "https://cdn.jsdelivr.net/gh/LnksGit/clapse-xyz/accets/1.2.5/theme/".concat(
+				: "https://cdn.jsdelivr.net/gh/Lnkstls/clapse-xyz/accets/1.2.5/theme/".concat(
 						o.color,
 						".css"
 				  )),
