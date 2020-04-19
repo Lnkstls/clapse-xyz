@@ -1,0 +1,22 @@
+.fex {
+    width: 70%;
+    margin: auto;
+    text-align: start;
+}
+.chenggong {
+    width: 20px;
+    height: 20px;
+    background: url(https://cdn.jsdelivr.net/gh/LnksGit/jsDelivr-images@master/img/chenggong.svg);
+    background-size: cover;
+    vertical-align: middle;
+}
+.cuowu {
+    width: 20px;
+    height: 20px;
+    background: url(https://cdn.jsdelivr.net/gh/LnksGit/jsDelivr-images@master/img/cuowu.svg);
+    background-size: cover;
+    vertical-align: middle;
+}
+.cont {
+    vertical-align: middle;
+}
