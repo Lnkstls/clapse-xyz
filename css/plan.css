@@ -1,5 +1,5 @@
 .fex {
-    width: 70%;
+    width: 60%;
     margin: auto;
     text-align: start;
 }
@@ -7,6 +7,7 @@
     display: inline-block;
     width: 20px;
     height: 20px;
+    margin: 0 5%;
     background: url(https://cdn.jsdelivr.net/gh/LnksGit/jsDelivr-images@master/img/chenggong.svg);
     background-size: cover;
     vertical-align: middle;
@@ -15,6 +16,7 @@
     display: inline-block;
     width: 20px;
     height: 20px;
+    margin: 0 5%;
     background: url(https://cdn.jsdelivr.net/gh/LnksGit/jsDelivr-images@master/img/cuowu.svg);
     background-size: cover;
     vertical-align: middle;
