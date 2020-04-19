@@ -4,6 +4,7 @@
     text-align: start;
 }
 .chenggong {
+    display: inline-block;
     width: 20px;
     height: 20px;
     background: url(https://cdn.jsdelivr.net/gh/LnksGit/jsDelivr-images@master/img/chenggong.svg);
@@ -11,6 +12,7 @@
     vertical-align: middle;
 }
 .cuowu {
+    display: inline-block;
     width: 20px;
     height: 20px;
     background: url(https://cdn.jsdelivr.net/gh/LnksGit/jsDelivr-images@master/img/cuowu.svg);
