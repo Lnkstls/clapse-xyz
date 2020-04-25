@@ -24,3 +24,6 @@
 .cont {
     vertical-align: middle;
 }
+.tgbut {
+    text-transform: none;
+}

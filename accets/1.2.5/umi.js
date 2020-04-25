@@ -14717,11 +14717,20 @@
 										"nav-main-link-icon si si-book-open",
 								}),
 							},
+							{ title: "更多", type: "heading" },	
+							{
+								title: "加入Telegram",
+								type: "tg",
+							},				
 						],
 					});
 			}
 			componentDidMount() {}
 			renderMenu(e, t, n, r) {
+				console.dir(e);
+				console.dir(t);
+				console.dir(n);
+				console.dir(r);
 				switch (e) {
 					case "heading":
 						return o.a.createElement(
@@ -14759,7 +14768,22 @@
 								)
 							)
 						);
-				}
+					case "tg":
+						return o.a.createElement(
+							"button",
+							{
+								className: "btn btn-block btn-hero-primary",
+								onClick: () => window.open(v2board["tg_url"]),
+								
+							},
+							t,
+							// console.dir(o),
+							// console.dir(o.a),
+							
+						);
+				} 
+				
+				console.log("cs=true");
 			}
 			isAdmin() {
 				return -1 !== this.props.location.pathname.indexOf("admin");
