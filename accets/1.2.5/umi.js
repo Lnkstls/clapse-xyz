@@ -14727,10 +14727,6 @@
 			}
 			componentDidMount() {}
 			renderMenu(e, t, n, r) {
-				console.dir(e);
-				console.dir(t);
-				console.dir(n);
-				console.dir(r);
 				switch (e) {
 					case "heading":
 						return o.a.createElement(
@@ -14769,18 +14765,18 @@
 							)
 						);
 					case "tg":
-						return o.a.createElement(
-							"button",
-							{
-								className: "btn btn-block btn-hero-primary",
-								onClick: () => window.open(v2board["tg_url"]),
-								
-							},
-							t,
-							// console.dir(o),
-							// console.dir(o.a),
-							
-						);
+						if(v2board["tg_url"]!=undefined)
+						{
+							return o.a.createElement(
+								"button",
+								{
+									className: "btn btn-block btn-hero-primary",
+									onClick: () => window.open(v2board["tg_url"]),
+									
+								},
+								t,			
+							);
+						}
 				} 
 				
 				console.log("cs=true");
