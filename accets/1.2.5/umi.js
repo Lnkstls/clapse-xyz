@@ -14717,7 +14717,17 @@
 										"nav-main-link-icon si si-book-open",
 								}),
 							},
-							{ title: "更多", type: "heading" },	
+
+							{ title: "更多", type: "heading" },
+							{
+								title: "服务器状态",
+								type: "cust_item",
+								href: "https://status.clapse.xyz",
+								icon: o.a.createElement("i", {
+									className:
+										"nav-main-link-icon si si-rocket",
+								}),
+							},
 							{
 								title: "加入Telegram",
 								type: "tg",
@@ -14727,6 +14737,7 @@
 			}
 			componentDidMount() {}
 			renderMenu(e, t, n, r) {
+				// console.log(e, t, n, r);
 				switch (e) {
 					case "heading":
 						return o.a.createElement(
@@ -14764,6 +14775,29 @@
 								)
 							)
 						);
+					case "cust_item":
+						return o.a.createElement(
+							"li",
+							{ key: Math.random(), className: "nav-main-item" },
+							o.a.createElement(
+								"a",
+								{
+									className: "nav-main-link ".concat(
+										this.props.location.pathname === n &&
+											"active"
+									),
+									onClick: () => {
+										window.location.href = n;
+									},
+								},
+								r && r,
+								o.a.createElement(
+									"span",
+									{ className: "nav-main-link-name" },
+									t
+								)
+							)
+						);
 					case "tg":
 						if(v2board["tg_url"]!=undefined)
 						{
@@ -14779,7 +14813,6 @@
 						}
 				} 
 				
-				console.log("cs=true");
 			}
 			isAdmin() {
 				return -1 !== this.props.location.pathname.indexOf("admin");
