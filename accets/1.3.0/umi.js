@@ -18071,7 +18071,7 @@
             i = document.createElement("link");
         (i.rel = "stylesheet"),
             (i.href = a
-                ? "https://cdn.jsdelivr.net/gh/Lnkstls/clapse-xyz/accets/1.3.0/theme/".concat(o.color, ".css")
+                ? "./theme/".concat(o.color, ".css")
                 : "https://cdn.jsdelivr.net/gh/Lnkstls/clapse-xyz/accets/1.3.0/theme/".concat(o.color, ".css")),
             document.getElementsByTagName("head")[0].appendChild(i);
         var s = {
@@ -38155,7 +38155,10 @@
                             align: "center",
                             render: (e) => {
                                 return d.a.createElement(s["a"], {
-                                    status: "processing",
+                                    status:
+                                        new Date().getTime() / 1e3 - 300 > e
+                                            ? "error"
+                                            : "processing",
                                 });
                             },
                         },
