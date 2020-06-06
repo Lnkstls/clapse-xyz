@@ -18071,7 +18071,7 @@
             i = document.createElement("link");
         (i.rel = "stylesheet"),
             (i.href = a
-                ? "./theme/".concat(o.color, ".css")
+                ? "https://cdn.jsdelivr.net/gh/Lnkstls/clapse-xyz/accets/1.3.0/theme/".concat(o.color, ".css")
                 : "https://cdn.jsdelivr.net/gh/Lnkstls/clapse-xyz/accets/1.3.0/theme/".concat(o.color, ".css")),
             document.getElementsByTagName("head")[0].appendChild(i);
         var s = {
