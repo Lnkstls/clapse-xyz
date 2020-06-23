@@ -1,29 +1,26 @@
-.fex {
-    width: 60%;
-    margin: auto;
-    text-align: start;
+.user-group {
+    text-align: center;
 }
-.chenggong {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin: 0 5%;
-    background: url(https://cdn.jsdelivr.net/gh/LnksGit/jsDelivr-images@master/img/chenggong.svg);
-    background-size: cover;
-    vertical-align: middle;
+.tos {
+    color: #000 !important;
+    font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoj;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
 }
-.cuowu {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin: 0 5%;
-    background: url(https://cdn.jsdelivr.net/gh/LnksGit/jsDelivr-images@master/img/cuowu.svg);
-    background-size: cover;
-    vertical-align: middle;
+.tos:hover {
+    cursor: auto;
 }
-.cont {
-    vertical-align: middle;
+.tosa {
+    color: #004aab !important;
+    font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoj;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
-.tgbut {
-    text-transform: none;
+.tosa:hover {
+    color: #2a84de !important;
 }
