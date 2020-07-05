@@ -27092,31 +27092,6 @@
                                                             "\u6ce8\u518c"
                                                         ),
                                                         i.a.createElement(
-                                                            "div",
-                                                            {
-                                                                className:
-                                                                    "form-group user-group",
-                                                            },
-                                                            i.a.createElement(
-                                                                "a",
-                                                                {
-                                                                    className: "tos",
-                                                                },
-                                                                "注册即代表您同意我们的"
-    
-                                                            ),
-                                                            i.a.createElement(
-                                                                    "a",
-                                                                    {
-                                                                        className: "tosa",
-                                                                        target: "_blank",
-                                                                        href: "https://help.clapse.com/clapse/Notice/Statement.html"
-                                                                    },
-                                                                    "服务条款"
-                                                                ),
-                                                            "。"
-                                                        ),
-                                                        i.a.createElement(
                                                             r["a"],
                                                             { type: "vertical" }
                                                         ),
@@ -30606,6 +30581,31 @@
                                                               )
                                                           )
                                                       ),
+                                                      i.a.createElement(
+                                                        "div",
+                                                        {
+                                                            className:
+                                                                "form-group user-group",
+                                                        },
+                                                        i.a.createElement(
+                                                            "a",
+                                                            {
+                                                                className: "tos",
+                                                            },
+                                                            "注册即代表您同意我们的"
+
+                                                        ),
+                                                        i.a.createElement(
+                                                                "a",
+                                                                {
+                                                                    className: "tosa",
+                                                                    target: "_blank",
+                                                                    href: "https://help.clapse.com/clapse/Notice/Statement.html"
+                                                                },
+                                                                "服务条款"
+                                                            ),
+                                                        "。"
+                                                    ),
                                                 i.a.createElement(
                                                     "div",
                                                     {
