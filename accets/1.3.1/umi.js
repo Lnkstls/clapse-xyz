@@ -15414,7 +15414,31 @@
                                 )
                             )
                         );
+                    case "cust_item":
+                        return o.a.createElement(
+                            "li",
+                            { key: Math.random(), className: "nav-main-item" },
+                            o.a.createElement(
+                                "a",
+                                {
+                                    className: "nav-main-link ".concat(
+                                        this.props.location.pathname === n &&
+                                            "active"
+                                    ),
+                                    onClick: () => {
+                                        window.location.href = n;
+                                    },
+                                },
+                                r && r,
+                                o.a.createElement(
+                                    "span",
+                                    { className: "nav-main-link-name" },
+                                    t
+                                )
+                            )
+                        );
                 }
+                
             }
             isAdmin() {
                 return -1 !== this.props.location.pathname.indexOf("admin");
