@@ -15236,7 +15236,7 @@
 							{
 								title: "服务器状态",
 								type: "cust_item",
-								href: "https://status.clapse.xyz/",
+								href: "https://status.clapse.cf/",
 								icon: o.a.createElement("i", {
 									className:
 										"nav-main-link-icon si si-rocket",
