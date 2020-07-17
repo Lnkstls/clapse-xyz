@@ -15236,7 +15236,7 @@
 							{
 								title: "服务器状态",
 								type: "cust_item",
-								href: "https://status.clapse.cf/",
+								href: window["settings"]["serverstatus"],
 								icon: o.a.createElement("i", {
 									className:
 										"nav-main-link-icon si si-rocket",
@@ -15245,7 +15245,7 @@
 							{
 								title: "帮助中心",
 								type: "cust_item",
-								href: "https://help.clapse.com/",
+								href: window["settings"]["help"],
 								icon: o.a.createElement("i", {
 									className:
 										"nav-main-link-icon si si-layers",
