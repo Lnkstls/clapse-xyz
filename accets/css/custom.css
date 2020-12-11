@@ -1,0 +1,74 @@
+.custom-plan-features {
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    flex: 1 0 auto
+}
+
+.custom-plan-features > li {
+    padding: 6px 0;
+    color: #7c8088;
+    text-align: left
+}
+
+.custom-plan-features > li > b {
+    color: #2a2e36;
+    font-weight: 500
+}
+
+.custom-plan-content {
+    padding-top: 20px;
+    padding-left: 20px
+}
+
+.custom-plan-features > li:before {
+    font-family: Font Awesome\ 5 Free;
+    content: "\F058";
+    padding-right: 10px;
+    color: #004eff;
+    font-weight: 900
+}
+
+
+.note::before {
+    content: "\F06a" !important;
+    color: #ffca00 !important;
+}
+
+.uer::before {
+    content: "\F057" !important;
+    color: #ff0000 !important;
+}
+
+.custom-html-style p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 8px 0;
+}
+
+.custom-html-style blockquote {
+    margin: 16px 0;
+    padding: 5px 8px 5px 30px;
+    background: none repeat scroll 0 0 rgba(102, 128, 153, 0.05);
+    color: #333;
+    border: none;
+    border-left: 5px solid #53b3ff;
+}
+
+.custom-html-style ol {
+    padding: 0;
+    margin: 5px 0;
+}
+
+.custom-html-style h2 {
+    margin: 20px 0;
+}
+
+.custom-html-style img {
+    margin: 5px 0;
+}
+
+.custom-html-style .btn-hero-primary {
+    margin-top: 10px;
+    text-transform: none !important;
+}
